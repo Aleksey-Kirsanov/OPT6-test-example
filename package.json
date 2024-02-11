@@ -1,0 +1,41 @@
+{
+  "name": "opt6project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "serv": "npx json-server --watch data.json",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "datatables.net-autofill-dt": "^2.6.0",
+    "datatables.net-buttons-dt": "^2.4.2",
+    "datatables.net-colreorder-dt": "^1.7.0",
+    "datatables.net-datetime": "^1.5.0",
+    "datatables.net-dt": "^1.13.8",
+    "datatables.net-fixedcolumns-dt": "^4.3.0",
+    "datatables.net-fixedheader-dt": "^3.4.0",
+    "datatables.net-keytable-dt": "^2.11.0",
+    "datatables.net-responsive-dt": "^2.5.0",
+    "datatables.net-rowgroup-dt": "^1.4.1",
+    "datatables.net-rowreorder-dt": "^1.4.1",
+    "datatables.net-scroller-dt": "^2.3.0",
+    "datatables.net-searchbuilder-dt": "^1.6.0",
+    "datatables.net-searchpanes-dt": "^2.2.0",
+    "datatables.net-select-dt": "^1.7.0",
+    "datatables.net-vue3": "^2.1.3",
+    "jquery": "^3.7.1",
+    "json-server": "^1.0.0-alpha.23",
+    "vue": "^3.3.11",
+    "vue-axios": "^3.5.2",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "vite": "^5.0.8"
+  }
+}
